@@ -2,5 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Load routes from each module
 require base_path('app/Modules/Auth/routes.php');
+require base_path('app/Modules/Tickets/routes.php');
+require base_path('app/Modules/Comments/routes.php');
